@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio tag Test</title>
+</head>
+<body>
+    <audio src="" controls></audio>
+    <p></p>
+    <audio controls>
+        <source src="music.mp3" type="audio/mp3"/>
+        <source src="mid.ogg" type="audio/ogg"/>
+    </audio>
+
+    <br><br/>
+
+    <audio src="" controls></audio>
+    <br/>
+    <audio controls>
+        <source src="music.mp3" type="audio/mp3"/>
+        <source src="mid.ogg" type="audio/ogg"/>
+    </audio>
+
+    <!-- poster="http://placehold.it/640x360" -->
+    <video controls width="320">
+        <source src="drama.mp4" type="video/mp4"/>
+        <source src="drama.webm" type="video/mp4"/>
+    </video>
+
+    <!-- XHTML에서는 속성값 생략이 안 되므로 controls를 명시할 때 속성값을 같이 명시해야만 한다.
+    (controls="controls") -->
+</body>
+</html>

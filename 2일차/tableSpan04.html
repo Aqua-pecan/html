@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Span</title>
+    <link rel="stylesheet" type="text/css" href="css/tableStyle.css">
+    <style>
+        td{
+            width: 40px;
+        }
+    </style>
+
+</head>
+<body>
+    <table style="text-align: center;" border="1">
+        <tr style="height: 25px;">
+            <th colspan="4">제목</th>
+        </tr>
+
+        <tr>
+            <th rowspan="3" style="width: 50px;">항목</th>
+            <td>A</td>
+            <td>가</td>
+            <td rowspan="2">1</td>
+        </tr>
+
+        <tr>
+            <!-- <th rowspan="3">항목</th> -->
+            <td>B</td>
+            <td>나</td>
+            <!-- <td rowspan="2">1</td> -->
+        </tr>
+
+        <tr>
+            <!-- <th rowspan="3">항목</th> -->
+            <td>C</td>
+            <td>다</td>
+            <td>2</td>
+        </tr>
+
+    </table>
+</body>
+</html>
